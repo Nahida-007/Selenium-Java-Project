@@ -19,8 +19,8 @@ public class LaunchBrowser {
 		System.out.println(url);
 		driver.quit();
 		
-	    
-	
+	  
+
 	}
 
 }
