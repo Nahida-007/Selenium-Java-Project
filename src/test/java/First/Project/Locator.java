@@ -17,10 +17,15 @@ public class Locator {
 
 		driver.get("https://www.facebook.com/");
 		driver.manage().window().maximize();
+		//id
 		WebElement username = driver.findElement(By.id("email"));
 		username.sendKeys("nahida1994@gmail.com");
+		
+		//Name
 		WebElement  password = driver.findElement(By.name("pass"));
 		password.sendKeys("ABC@123");
+		
+	
 		WebElement login = driver.findElement(By.id("u_0_b"));
 		login.click();
 		
